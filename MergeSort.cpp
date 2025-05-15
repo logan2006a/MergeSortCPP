@@ -63,18 +63,3 @@ deque<vector<int> > MergeSort::breaking(vector<int>listToBreak) {
     return broken;
 }
 
-void MergeSort::print2dList(deque<vector<int>> list) {
-
-    for (vector<int> items: list) {
-        cout << endl;
-        for (int item: items) {
-            cout << item << ", ";
-        }
-    }
-}
-
-void MergeSort::printList(vector<int> list) {
-    for (int item: list) {
-        cout << item << "\t";
-    }
-}

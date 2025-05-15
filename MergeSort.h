@@ -12,8 +12,6 @@ using namespace std;
 class MergeSort {
     public:
         static vector<int> sort(vector<int> listToSort);
-        static void printList(vector<int> list);
-        static void print2dList(deque<vector<int>> list);
         static vector<int> merging(deque<vector<int>> brokenList);
         static deque<vector<int>> breaking(vector<int> listToBreak);
 
